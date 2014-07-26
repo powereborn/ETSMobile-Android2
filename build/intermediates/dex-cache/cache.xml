@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/laurencedevillers/Documents/ETSMobile/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.3-0a84409ec25188034b1feff2cb9fdc1b319c33ec.jar"
+        jar="/Users/laurencedevillers/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.3/1248c5f768133f45da1691aae19bdc2dfd0b17b0/jackson-annotations-2.3.3.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1248c5f768133f45da1691aae19bdc2dfd0b17b0"/>
+    <item
+        dex="/Users/laurencedevillers/Documents/ETSMobile/app/build/intermediates/pre-dexed/debug/jackson-core-asl-1.9.11-64aebfa3e24466e19120909f0d49d5c84993dedc.jar"
+        jar="/Users/laurencedevillers/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.11/e32303ef8bd18a5c9272780d49b81c95e05ddf43/jackson-core-asl-1.9.11.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e32303ef8bd18a5c9272780d49b81c95e05ddf43"/>
+    <item
+        dex="/Users/laurencedevillers/Documents/ETSMobile/app/build/intermediates/pre-dexed/debug/jackson-mapper-asl-1.9.11-a97e008a6228571ebdfdc6499a3fb1647dd36026.jar"
+        jar="/Users/laurencedevillers/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.11/45d70862fa016993193075a1e8e32a01dcf438e8/jackson-mapper-asl-1.9.11.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="45d70862fa016993193075a1e8e32a01dcf438e8"/>
+
+</pre-dex-items>
