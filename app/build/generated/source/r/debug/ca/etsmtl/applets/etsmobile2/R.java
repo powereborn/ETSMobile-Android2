@@ -15,12 +15,7 @@ public final class R {
         public static final int secu_urgence=0x7f050000;
     }
     public static final class attr {
-        /** 
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-        
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -28,12 +23,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adSize=0x7f010000;
-        /** 
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-        
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -41,8 +31,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adSizes=0x7f010001;
-        /**  The ad unit ID. 
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
 theme attribute (in the form
@@ -50,8 +39,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int adUnitId=0x7f010002;
-        /**  Appearance of the buy button. Must be one of "classic", "grayscale" and "monochrome" 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -63,12 +51,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonAppearance=0x7f010018;
-        /** 
-             Height of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific height, e.g.
-             "48dp", or special values "match_parent" and "wrap_content".
-        
-         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -87,8 +70,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonHeight=0x7f010015;
-        /**  Text on the buy button. Must be one of "buy_with_google", "buy_now" and "book_now" 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -100,12 +82,7 @@ containing a value of this type.
 </table>
          */
         public static final int buyButtonText=0x7f010017;
-        /** 
-             Width of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific width, e.g.
-             "300dp", or special values "match_parent" and "wrap_content".
-        
-         <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+        /** <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
 <p>This may also be a reference to a resource (in the form
@@ -164,8 +141,7 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int cameraZoom=0x7f010008;
-        /**  Google Wallet environment to use 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -177,8 +153,7 @@ containing a value of this type.
 </table>
          */
         public static final int environment=0x7f010012;
-        /**  Fragment mode 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -189,8 +164,7 @@ containing a value of this type.
 </table>
          */
         public static final int fragmentMode=0x7f010014;
-        /**  A style resource specifing attributes to customize the look and feel of WalletFragment 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int fragmentStyle=0x7f010013;
@@ -208,32 +182,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int mapType=0x7f010003;
-        /**  Masked wallet details background 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int maskedWalletDetailsBackground=0x7f01001b;
-        /**  "Change" button background in masked wallet details view 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int maskedWalletDetailsButtonBackground=0x7f01001d;
-        /**  TextAppearance for the "Change" button in masked wallet details view 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsButtonTextAppearance=0x7f01001c;
-        /**  TextAppearance for headers describing masked wallet details 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsHeaderTextAppearance=0x7f01001a;
-        /**  Type of the wallet logo image in masked wallet details view 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -244,8 +213,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int maskedWalletDetailsLogoImageType=0x7f01001f;
-        /**  Color of the Google Wallet logo text in masked wallet details view 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -254,13 +222,11 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int maskedWalletDetailsLogoTextColor=0x7f01001e;
-        /**  TextAppearance for masked wallet details 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int maskedWalletDetailsTextAppearance=0x7f010019;
-        /**  Theme to be used for the Wallet selector 
-         <p>Must be one of the following constant values.</p>
+        /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
 <colgroup align="left" />
@@ -671,12 +637,12 @@ containing a value of this type.
         public static final int appel_d_apos_urgence=0x7f0a000e;
         public static final int applets_about=0x7f0a000f;
         public static final int applets_ens_etsmtl_ca=0x7f0a0010;
-        public static final int auth_client_needs_enabling_title=0x7f0a007e;
-        public static final int auth_client_needs_installation_title=0x7f0a007f;
-        public static final int auth_client_needs_update_title=0x7f0a0080;
-        public static final int auth_client_play_services_err_notification_msg=0x7f0a0081;
-        public static final int auth_client_requested_by_msg=0x7f0a0082;
-        public static final int auth_client_using_bad_version_title=0x7f0a0083;
+        public static final int auth_client_needs_enabling_title=0x7f0a007f;
+        public static final int auth_client_needs_installation_title=0x7f0a0080;
+        public static final int auth_client_needs_update_title=0x7f0a0081;
+        public static final int auth_client_play_services_err_notification_msg=0x7f0a0082;
+        public static final int auth_client_requested_by_msg=0x7f0a0083;
+        public static final int auth_client_using_bad_version_title=0x7f0a0084;
         public static final int bandwith_app=0x7f0a0011;
         public static final int bandwith_phase=0x7f0a0012;
         public static final int categories=0x7f0a0013;
@@ -755,37 +721,38 @@ containing a value of this type.
         public static final int noteACejour=0x7f0a005c;
         public static final int noteOnPourcent=0x7f0a005d;
         public static final int ponderation=0x7f0a005e;
-        public static final int profil_code_permanent=0x7f0a005f;
-        public static final int profil_cours_echoue=0x7f0a0060;
-        public static final int profil_cours_equivalent=0x7f0a0061;
-        public static final int profil_cours_reussis=0x7f0a0062;
-        public static final int profil_credit_inscrit=0x7f0a0063;
-        public static final int profil_credit_potentiel=0x7f0a0064;
-        public static final int profil_credit_reussis=0x7f0a0065;
-        public static final int profil_logout=0x7f0a0066;
-        public static final int profil_moyenne=0x7f0a0067;
-        public static final int profil_nom_prenom=0x7f0a0068;
-        public static final int profil_programme=0x7f0a0069;
-        public static final int profil_solde=0x7f0a006a;
-        public static final int prompt_email=0x7f0a006b;
-        public static final int prompt_password=0x7f0a006c;
-        public static final int rangCentille=0x7f0a006d;
-        public static final int secu_appel_lbl=0x7f0a006e;
-        public static final int secu_ext=0x7f0a006f;
-        public static final int secu_ext_lbl=0x7f0a0070;
-        public static final int secu_phone_lbl=0x7f0a0071;
-        public static final int secu_title=0x7f0a0072;
-        public static final int secu_title1=0x7f0a0073;
-        public static final int secu_title2=0x7f0a0074;
-        public static final int sommaire=0x7f0a0075;
-        public static final int title_activity_login=0x7f0a0076;
-        public static final int today_url_format=0x7f0a0077;
-        public static final int url_biblio=0x7f0a0078;
-        public static final int url_email_ets=0x7f0a0079;
-        public static final int utilise=0x7f0a007a;
-        public static final int voirPDF=0x7f0a007b;
-        public static final int wallet_buy_button_place_holder=0x7f0a007c;
-        public static final int welcome=0x7f0a007d;
+        public static final int pre_release_do_not_ship=0x7f0a005f;
+        public static final int profil_code_permanent=0x7f0a0060;
+        public static final int profil_cours_echoue=0x7f0a0061;
+        public static final int profil_cours_equivalent=0x7f0a0062;
+        public static final int profil_cours_reussis=0x7f0a0063;
+        public static final int profil_credit_inscrit=0x7f0a0064;
+        public static final int profil_credit_potentiel=0x7f0a0065;
+        public static final int profil_credit_reussis=0x7f0a0066;
+        public static final int profil_logout=0x7f0a0067;
+        public static final int profil_moyenne=0x7f0a0068;
+        public static final int profil_nom_prenom=0x7f0a0069;
+        public static final int profil_programme=0x7f0a006a;
+        public static final int profil_solde=0x7f0a006b;
+        public static final int prompt_email=0x7f0a006c;
+        public static final int prompt_password=0x7f0a006d;
+        public static final int rangCentille=0x7f0a006e;
+        public static final int secu_appel_lbl=0x7f0a006f;
+        public static final int secu_ext=0x7f0a0070;
+        public static final int secu_ext_lbl=0x7f0a0071;
+        public static final int secu_phone_lbl=0x7f0a0072;
+        public static final int secu_title=0x7f0a0073;
+        public static final int secu_title1=0x7f0a0074;
+        public static final int secu_title2=0x7f0a0075;
+        public static final int sommaire=0x7f0a0076;
+        public static final int title_activity_login=0x7f0a0077;
+        public static final int today_url_format=0x7f0a0078;
+        public static final int url_biblio=0x7f0a0079;
+        public static final int url_email_ets=0x7f0a007a;
+        public static final int utilise=0x7f0a007b;
+        public static final int voirPDF=0x7f0a007c;
+        public static final int wallet_buy_button_place_holder=0x7f0a007d;
+        public static final int welcome=0x7f0a007e;
     }
     public static final class style {
         /** 
@@ -814,11 +781,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize ca.etsmtl.applets.etsmobile2:adSize}</code></td><td>
-    The size of the ad.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes ca.etsmtl.applets.etsmobile2:adSizes}</code></td><td>
-    A comma-separated list of the supported ad sizes.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId ca.etsmtl.applets.etsmobile2:adUnitId}</code></td><td> The ad unit ID.</td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize ca.etsmtl.applets.etsmobile2:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes ca.etsmtl.applets.etsmobile2:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId ca.etsmtl.applets.etsmobile2:adUnitId}</code></td><td></td></tr>
            </table>
            @see #AdsAttrs_adSize
            @see #AdsAttrs_adSizes
@@ -828,13 +793,8 @@ containing a value of this type.
             0x7f010000, 0x7f010001, 0x7f010002
         };
         /**
-          <p>
-          @attr description
-          
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-        
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#adSize}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -843,18 +803,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:adSize
         */
         public static final int AdsAttrs_adSize = 0;
         /**
-          <p>
-          @attr description
-          
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-        
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#adSizes}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -863,14 +817,12 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:adSizes
         */
         public static final int AdsAttrs_adSizes = 1;
         /**
-          <p>
-          @attr description
-           The ad unit ID. 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#adUnitId}
+          attribute's value can be found in the {@link #AdsAttrs} array.
 
 
           <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -879,7 +831,6 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:adUnitId
         */
         public static final int AdsAttrs_adUnitId = 2;
@@ -1133,10 +1084,10 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_environment ca.etsmtl.applets.etsmobile2:environment}</code></td><td> Google Wallet environment to use </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode ca.etsmtl.applets.etsmobile2:fragmentMode}</code></td><td> Fragment mode </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle ca.etsmtl.applets.etsmobile2:fragmentStyle}</code></td><td> A style resource specifing attributes to customize the look and feel of WalletFragment </td></tr>
-           <tr><td><code>{@link #WalletFragmentOptions_theme ca.etsmtl.applets.etsmobile2:theme}</code></td><td> Theme to be used for the Wallet selector </td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_environment ca.etsmtl.applets.etsmobile2:environment}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentMode ca.etsmtl.applets.etsmobile2:fragmentMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_fragmentStyle ca.etsmtl.applets.etsmobile2:fragmentStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentOptions_theme ca.etsmtl.applets.etsmobile2:theme}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentOptions_environment
            @see #WalletFragmentOptions_fragmentMode
@@ -1147,9 +1098,8 @@ containing a value of this type.
             0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014
         };
         /**
-          <p>
-          @attr description
-           Google Wallet environment to use 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#environment}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1162,14 +1112,12 @@ containing a value of this type.
 <tr><td><code>sandbox</code></td><td>0</td><td></td></tr>
 <tr><td><code>strict_sandbox</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:environment
         */
         public static final int WalletFragmentOptions_environment = 1;
         /**
-          <p>
-          @attr description
-           Fragment mode 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#fragmentMode}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1181,26 +1129,22 @@ containing a value of this type.
 <tr><td><code>buyButton</code></td><td>1</td><td></td></tr>
 <tr><td><code>selectionDetails</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:fragmentMode
         */
         public static final int WalletFragmentOptions_fragmentMode = 3;
         /**
-          <p>
-          @attr description
-           A style resource specifing attributes to customize the look and feel of WalletFragment 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#fragmentStyle}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:fragmentStyle
         */
         public static final int WalletFragmentOptions_fragmentStyle = 2;
         /**
-          <p>
-          @attr description
-           Theme to be used for the Wallet selector 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#theme}
+          attribute's value can be found in the {@link #WalletFragmentOptions} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1212,7 +1156,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>holo_dark</code></td><td>0</td><td></td></tr>
 <tr><td><code>holo_light</code></td><td>1</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:theme
         */
         public static final int WalletFragmentOptions_theme = 0;
@@ -1222,19 +1165,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance ca.etsmtl.applets.etsmobile2:buyButtonAppearance}</code></td><td> Appearance of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight ca.etsmtl.applets.etsmobile2:buyButtonHeight}</code></td><td>
-             Height of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText ca.etsmtl.applets.etsmobile2:buyButtonText}</code></td><td> Text on the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth ca.etsmtl.applets.etsmobile2:buyButtonWidth}</code></td><td>
-             Width of the buy button.</td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground ca.etsmtl.applets.etsmobile2:maskedWalletDetailsBackground}</code></td><td> Masked wallet details background </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonBackground}</code></td><td> "Change" button background in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonTextAppearance}</code></td><td> TextAppearance for the "Change" button in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsHeaderTextAppearance}</code></td><td> TextAppearance for headers describing masked wallet details </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoImageType}</code></td><td> Type of the wallet logo image in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoTextColor}</code></td><td> Color of the Google Wallet logo text in masked wallet details view </td></tr>
-           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsTextAppearance}</code></td><td> TextAppearance for masked wallet details </td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonAppearance ca.etsmtl.applets.etsmobile2:buyButtonAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonHeight ca.etsmtl.applets.etsmobile2:buyButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonText ca.etsmtl.applets.etsmobile2:buyButtonText}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_buyButtonWidth ca.etsmtl.applets.etsmobile2:buyButtonWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsBackground ca.etsmtl.applets.etsmobile2:maskedWalletDetailsBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonBackground ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsHeaderTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoImageType ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoImageType}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsLogoTextColor ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #WalletFragmentStyle_maskedWalletDetailsTextAppearance ca.etsmtl.applets.etsmobile2:maskedWalletDetailsTextAppearance}</code></td><td></td></tr>
            </table>
            @see #WalletFragmentStyle_buyButtonAppearance
            @see #WalletFragmentStyle_buyButtonHeight
@@ -1254,9 +1195,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e, 0x7f01001f
         };
         /**
-          <p>
-          @attr description
-           Appearance of the buy button. Must be one of "classic", "grayscale" and "monochrome" 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#buyButtonAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1269,18 +1209,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>grayscale</code></td><td>2</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>3</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:buyButtonAppearance
         */
         public static final int WalletFragmentStyle_buyButtonAppearance = 3;
         /**
-          <p>
-          @attr description
-          
-             Height of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific height, e.g.
-             "48dp", or special values "match_parent" and "wrap_content".
-        
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#buyButtonHeight}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1300,14 +1234,12 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:buyButtonHeight
         */
         public static final int WalletFragmentStyle_buyButtonHeight = 0;
         /**
-          <p>
-          @attr description
-           Text on the buy button. Must be one of "buy_with_google", "buy_now" and "book_now" 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#buyButtonText}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1320,18 +1252,12 @@ containing a value of this type.
 <tr><td><code>buy_now</code></td><td>2</td><td></td></tr>
 <tr><td><code>book_now</code></td><td>3</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:buyButtonText
         */
         public static final int WalletFragmentStyle_buyButtonText = 2;
         /**
-          <p>
-          @attr description
-          
-             Width of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific width, e.g.
-             "300dp", or special values "match_parent" and "wrap_content".
-        
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#buyButtonWidth}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1351,66 +1277,56 @@ containing a value of this type.
 <tr><td><code>match_parent</code></td><td>-1</td><td></td></tr>
 <tr><td><code>wrap_content</code></td><td>-2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:buyButtonWidth
         */
         public static final int WalletFragmentStyle_buyButtonWidth = 1;
         /**
-          <p>
-          @attr description
-           Masked wallet details background 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
         /**
-          <p>
-          @attr description
-           "Change" button background in masked wallet details view 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsButtonBackground}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonBackground
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
         /**
-          <p>
-          @attr description
-           TextAppearance for the "Change" button in masked wallet details view 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsButtonTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsButtonTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
         /**
-          <p>
-          @attr description
-           TextAppearance for headers describing masked wallet details 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsHeaderTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsHeaderTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
         /**
-          <p>
-          @attr description
-           Type of the wallet logo image in masked wallet details view 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsLogoImageType}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be one of the following constant values.</p>
@@ -1422,14 +1338,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>classic</code></td><td>1</td><td></td></tr>
 <tr><td><code>monochrome</code></td><td>2</td><td></td></tr>
 </table>
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoImageType
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 10;
         /**
-          <p>
-          @attr description
-           Color of the Google Wallet logo text in masked wallet details view 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsLogoTextColor}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -1439,19 +1353,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsLogoTextColor
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
         /**
-          <p>
-          @attr description
-           TextAppearance for masked wallet details 
+          <p>This symbol is the offset where the {@link ca.etsmtl.applets.etsmobile2.R.attr#maskedWalletDetailsTextAppearance}
+          attribute's value can be found in the {@link #WalletFragmentStyle} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
           @attr name ca.etsmtl.applets.etsmobile2:maskedWalletDetailsTextAppearance
         */
         public static final int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;

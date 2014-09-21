@@ -10,4 +10,4 @@
         android:padding="10dp"
         android:dividerHeight="1dp"
         android:divider="@color/black_gray"/>   
-</RelativeLayout><!-- From: file:/Users/laurencedevillers/Documents/ETSMobile/app/src/main/res/layout/drawer_list_item.xml -->
+</RelativeLayout><!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/src/main/res/layout/drawer_list_item.xml -->

@@ -51,4 +51,4 @@
         android:text="adresse courriel"
         android:layout_below="@+id/tv_telbureau_bottin" />
 
-</RelativeLayout><!-- From: file:/Users/laurencedevillers/Documents/ETSMobile/app/src/main/res/layout/bottin_detail_fragment.xml -->
+</RelativeLayout><!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/src/main/res/layout/bottin_detail_fragment.xml -->
