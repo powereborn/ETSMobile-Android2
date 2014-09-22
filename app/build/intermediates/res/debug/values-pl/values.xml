@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/auth_strings.xml -->
+    <!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/auth_strings.xml -->
     <eat-comment/>
     <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"Aplikacja wymaga włączenia Usług Google Play."</string>
     <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"Aplikacja wymaga zainstalowania Usług Google Play."</string>
@@ -8,7 +8,7 @@
     <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Błąd usług Google Play"</string>
     <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"Żądanie z aplikacji <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
     <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"Aplikacja próbowała skorzystać z nieprawidłowej wersji Usług Google Play."</string>
-    <!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/common_strings.xml -->
+    <!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-pl/common_strings.xml -->
     <eat-comment/>
     <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Włącz Usługi Google Play"</string>
     <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Ta aplikacja nie będzie działać, jeśli nie włączysz Usług Google Play."</string>

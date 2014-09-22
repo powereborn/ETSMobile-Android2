@@ -17,4 +17,4 @@
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
         android:background="#ff212121" />
-</android.support.v4.widget.DrawerLayout><!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/src/main/res/layout/activity_main.xml -->
+</android.support.v4.widget.DrawerLayout><!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/src/main/res/layout/activity_main.xml -->

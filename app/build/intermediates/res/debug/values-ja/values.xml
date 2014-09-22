@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/auth_strings.xml -->
+    <!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/auth_strings.xml -->
     <eat-comment/>
     <string msgid="3983201110833868073" name="auth_client_needs_enabling_title">"アプリではGoogle Play開発者サービスを有効にする必要があります。"</string>
     <string msgid="7999585836145154206" name="auth_client_needs_installation_title">"アプリではGoogle Play開発者サービスをインストールする必要があります。"</string>
@@ -8,7 +8,7 @@
     <string msgid="3635065018897986478" name="auth_client_play_services_err_notification_msg">"Google Play開発者サービスのエラー"</string>
     <string msgid="6304135633531965756" name="auth_client_requested_by_msg">"<ns1:g id="APP_NAME">%1$s</ns1:g>によるリクエスト"</string>
     <string msgid="2534454398764507874" name="auth_client_using_bad_version_title">"アプリはGoogle Play開発者サービスの不適切なバージョンを使用しようとしました。"</string>
-    <!-- From: file:/home/gnut3ll4/Bureau/Merge/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/common_strings.xml -->
+    <!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.2.08/res/values-ja/common_strings.xml -->
     <eat-comment/>
     <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Play開発者サービスの有効化"</string>
     <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"このアプリの実行には、Google Play開発者サービスの有効化が必要です。"</string>
