@@ -2,4 +2,4 @@
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ets_background"
     android:tileMode="disabled" android:gravity="top" >
-</bitmap><!-- From: file:/home/gnut3ll4/Bureau/Merge/test_clone/ETSMobile-Android2/app/src/main/res/drawable/background_ets.xml -->
+</bitmap><!-- From: file:/home/gnut3ll4/git/ETSMobile-Android2/app/src/main/res/drawable/background_ets.xml -->
