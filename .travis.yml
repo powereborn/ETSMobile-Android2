@@ -4,6 +4,7 @@ jdk:
 android:
   licenses:
     - android-sdk-license-.+
+    - google-gdk-license-.+
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools

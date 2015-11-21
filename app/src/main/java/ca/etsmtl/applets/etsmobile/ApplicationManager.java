@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
-dfgfdgfdgfdgfdgdfgdf FAUUUUUUUXXXXXXXXX -> OOUOOIOIOIOIO
 import com.crashlytics.android.Crashlytics;
 
 import java.sql.SQLException;
